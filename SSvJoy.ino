@@ -48,17 +48,18 @@ void setup() {
         break;
     }
 
-    Serial.print("Type : ");
-    Serial.print((int)type);
-    Serial.print("\tData : ");
-    Serial.print(data.Axis);
-    Serial.print(" : ");
-    Serial.print(data.Value);
-    Serial.print("\tCheck : ");
-    Serial.print(checksum);
-    Serial.print(" : ");
-    Serial.print(chk);
-    Serial.print("\n");
+	  // 시간 문제로 출력문 주석처리.
+    // Serial.print("Type : ");
+    // Serial.print((int)type);
+    // Serial.print("\tData : ");
+    // Serial.print(data.Axis);
+    // Serial.print(" : ");
+    // Serial.print(data.Value);
+    // Serial.print("\tCheck : ");
+    // Serial.print(checksum);
+    // Serial.print(" : ");
+    // Serial.print(chk);
+    // Serial.print("\n");
   };
   error = []() { 
     Serial.print("Error !!!\n");
